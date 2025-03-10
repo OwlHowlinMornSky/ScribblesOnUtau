@@ -276,39 +276,6 @@ tracks:
   track_expressions: []
   voice_color_names:
   - ""
-- phonemizer: OpenUtau.Core.DefaultPhonemizer
-  renderer_settings: {}
-  track_name: Track5
-  track_color: Blue
-  mute: false
-  solo: false
-  volume: 0
-  pan: 0
-  track_expressions: []
-  voice_color_names:
-  - ""
-- phonemizer: OpenUtau.Core.DefaultPhonemizer
-  renderer_settings: {}
-  track_name: Track6
-  track_color: Blue
-  mute: false
-  solo: false
-  volume: 0
-  pan: 0
-  track_expressions: []
-  voice_color_names:
-  - ""
-- phonemizer: OpenUtau.Core.DefaultPhonemizer
-  renderer_settings: {}
-  track_name: Track7
-  track_color: Blue
-  mute: false
-  solo: false
-  volume: 0
-  pan: 0
-  track_expressions: []
-  voice_color_names:
-  - ""
 voice_parts:
 - duration: 8160
   name: New Part
@@ -6166,7 +6133,7 @@ wave_parts:
   comment: ""
   track_no: 2
   position: 944
-  relative_path: Lia - My Soul,Your Beats!.flac
+  relative_path: ..\UtauReference\Lia - My Soul,Your Beats!.flac
   file_duration_ms: 275386.6666
   skip_ms: 0
   trim_ms: 0

@@ -269,9 +269,9 @@ tracks:
   phonemizer: OpenUtau.Plugin.Builtin.JapanesePresampPhonemizer
   renderer_settings:
     renderer: WORLDLINE-R
-  track_name: Track3
+  track_name: mini
   track_color: Blue
-  mute: false
+  mute: true
   solo: false
   volume: 0
   pan: 0
@@ -288,20 +288,9 @@ tracks:
   renderer_settings: {}
   track_name: Track4
   track_color: Blue
-  mute: true
-  solo: false
-  volume: -9.951219512195122
-  pan: 0
-  track_expressions: []
-  voice_color_names:
-  - ""
-- phonemizer: OpenUtau.Core.DefaultPhonemizer
-  renderer_settings: {}
-  track_name: Track5
-  track_color: Blue
   mute: false
   solo: false
-  volume: 0
+  volume: -12
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -1402,7 +1391,7 @@ wave_parts:
   comment: ""
   track_no: 3
   position: 855
-  relative_path: 重音テト,マサラダ - ちっちゃな私.mp3
+  relative_path: ..\UtauReference\重音テト,マサラダ - ちっちゃな私.mp3
   file_duration_ms: 231576
   skip_ms: 0
   trim_ms: 0

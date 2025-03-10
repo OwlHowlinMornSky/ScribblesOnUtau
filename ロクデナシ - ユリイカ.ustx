@@ -3786,7 +3786,7 @@ wave_parts:
   comment: ""
   track_no: 2
   position: 943
-  relative_path: ロクデナシ - ユリイカ.mp3
+  relative_path: ..\UtauReference\ロクデナシ - ユリイカ.mp3
   file_duration_ms: 225567.3469
   skip_ms: 0
   trim_ms: 0
