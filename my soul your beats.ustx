@@ -218,7 +218,7 @@ exp_selectors:
 - vel
 exp_primary: 0
 exp_secondary: 1
-key: 0
+key: 4
 time_signatures:
 - bar_position: 0
   beat_per_bar: 2
@@ -271,7 +271,18 @@ tracks:
   track_color: Blue
   mute: false
   solo: false
-  volume: -9.951219512195122
+  volume: -8.634146341463415
+  pan: 0
+  track_expressions: []
+  voice_color_names:
+  - ""
+- phonemizer: OpenUtau.Core.DefaultPhonemizer
+  renderer_settings: {}
+  track_name: Track5
+  track_color: Blue
+  mute: true
+  solo: false
+  volume: -5.560975609756099
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -6135,5 +6146,13 @@ wave_parts:
   position: 944
   relative_path: ..\UtauReference\Lia - My Soul,Your Beats!.flac
   file_duration_ms: 275386.6666
+  skip_ms: 0
+  trim_ms: 0
+- name: Lia - My Soul,Your Beats! - Instrumental.mp3
+  comment: ""
+  track_no: 3
+  position: 1362
+  relative_path: ..\UtauReference\Lia - My Soul,Your Beats! - Instrumental.mp3
+  file_duration_ms: 275748.5714
   skip_ms: 0
   trim_ms: 0

@@ -218,7 +218,7 @@ exp_selectors:
 - vel
 exp_primary: 1
 exp_secondary: 2
-key: 0
+key: 2
 time_signatures:
 - bar_position: 0
   beat_per_bar: 4
@@ -1050,7 +1050,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 4200
-    duration: 240
+    duration: 360
     tone: 62
     lyric: げ
     pitch:
@@ -1067,7 +1067,7 @@ voice_parts:
     lyric: て
     pitch:
       data:
-      - {x: -40, y: 0, shape: io}
+      - {x: -40, y: 10, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -3163,7 +3163,7 @@ voice_parts:
   - position: 10440
     duration: 120
     tone: 65
-    lyric: え
+    lyric: e
     pitch:
       data:
       - {x: -40, y: 10, shape: io}
@@ -3175,7 +3175,7 @@ voice_parts:
   - position: 10560
     duration: 720
     tone: 66
-    lyric: え
+    lyric: e
     pitch:
       data:
       - {x: -40, y: -10, shape: io}
@@ -5102,11 +5102,11 @@ voice_parts:
     phoneme_overrides: []
   - position: 1560
     duration: 120
-    tone: 64
+    tone: 62
     lyric: ん
     pitch:
       data:
-      - {x: -40, y: 0, shape: io}
+      - {x: -40, y: 20, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -5118,7 +5118,7 @@ voice_parts:
     lyric: だ
     pitch:
       data:
-      - {x: -40, y: 20, shape: io}
+      - {x: -40, y: 0, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -6058,7 +6058,7 @@ voice_parts:
     phoneme_overrides: []
   - position: 2400
     duration: 120
-    tone: 62
+    tone: 57
     lyric: か
     pitch:
       data:
@@ -6074,7 +6074,7 @@ voice_parts:
     lyric: な
     pitch:
       data:
-      - {x: -40, y: -70, shape: io}
+      - {x: -40, y: -120, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -6789,7 +6789,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 2400
-    duration: 120
+    duration: 150
     tone: 64
     lyric: な
     pitch:
@@ -6800,13 +6800,13 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 2520
-    duration: 120
-    tone: 64
+  - position: 2550
+    duration: 90
+    tone: 66
     lyric: く
     pitch:
       data:
-      - {x: -40, y: 0, shape: io}
+      - {x: -40, y: -20, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -6818,7 +6818,7 @@ voice_parts:
     lyric: て
     pitch:
       data:
-      - {x: -40, y: -20, shape: io}
+      - {x: -40, y: 0, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -7770,7 +7770,7 @@ voice_parts:
     phoneme_overrides: []
   - position: 2400
     duration: 120
-    tone: 62
+    tone: 57
     lyric: も
     pitch:
       data:
@@ -7786,7 +7786,7 @@ voice_parts:
     lyric: の
     pitch:
       data:
-      - {x: -40, y: -70, shape: io}
+      - {x: -40, y: -120, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -8775,7 +8775,7 @@ voice_parts:
     phoneme_overrides: []
   - position: 2400
     duration: 120
-    tone: 62
+    tone: 57
     lyric: か
     pitch:
       data:
@@ -8791,7 +8791,7 @@ voice_parts:
     lyric: な
     pitch:
       data:
-      - {x: -40, y: -70, shape: io}
+      - {x: -40, y: -120, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}

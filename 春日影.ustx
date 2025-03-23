@@ -218,7 +218,7 @@ exp_selectors:
 - vel
 exp_primary: 0
 exp_secondary: 1
-key: 0
+key: 11
 time_signatures:
 - bar_position: 0
   beat_per_bar: 6
@@ -1273,7 +1273,7 @@ voice_parts:
   notes:
   - position: 480
     duration: 240
-    tone: 70
+    tone: 71
     lyric: ひ
     pitch:
       data:
@@ -1289,7 +1289,7 @@ voice_parts:
     lyric: か
     pitch:
       data:
-      - {x: -40, y: 0, shape: io}
+      - {x: -40, y: 10, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -4439,8 +4439,8 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 3240
-    duration: 120
+  - position: 3120
+    duration: 240
     tone: 59
     lyric: っ
     pitch:
