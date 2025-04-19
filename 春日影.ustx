@@ -269,9 +269,42 @@ tracks:
   renderer_settings: {}
   track_name: Ref
   track_color: Blue
-  mute: false
+  mute: true
   solo: false
   volume: -12
+  pan: 0
+  track_expressions: []
+  voice_color_names:
+  - ""
+- phonemizer: OpenUtau.Core.DefaultPhonemizer
+  renderer_settings: {}
+  track_name: Track4
+  track_color: Blue
+  mute: true
+  solo: false
+  volume: -8.634146341463415
+  pan: 0
+  track_expressions: []
+  voice_color_names:
+  - ""
+- phonemizer: OpenUtau.Core.DefaultPhonemizer
+  renderer_settings: {}
+  track_name: Track5
+  track_color: Blue
+  mute: false
+  solo: false
+  volume: -7.756097560975608
+  pan: 0
+  track_expressions: []
+  voice_color_names:
+  - ""
+- phonemizer: OpenUtau.Core.DefaultPhonemizer
+  renderer_settings: {}
+  track_name: Track6
+  track_color: Blue
+  mute: true
+  solo: false
+  volume: 0
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -1556,11 +1589,11 @@ voice_parts:
     phoneme_overrides: []
   - position: 2640
     duration: 120
-    tone: 66
+    tone: 67
     lyric: き
     pitch:
       data:
-      - {x: -40, y: 0, shape: io}
+      - {x: -40.000004, y: 0, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -1572,7 +1605,7 @@ voice_parts:
     lyric: ら
     pitch:
       data:
-      - {x: -40, y: -20, shape: io}
+      - {x: -39.999996, y: -10, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -3429,7 +3462,7 @@ voice_parts:
     phoneme_overrides: []
   - position: 2640
     duration: 120
-    tone: 66
+    tone: 67
     lyric: き
     pitch:
       data:
@@ -3445,7 +3478,7 @@ voice_parts:
     lyric: ら
     pitch:
       data:
-      - {x: -40, y: -20, shape: io}
+      - {x: -40, y: -10, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -4621,11 +4654,11 @@ voice_parts:
     phoneme_overrides: []
   - position: 6240
     duration: 240
-    tone: 59
+    tone: 58
     lyric: け
     pitch:
       data:
-      - {x: -40, y: 0, shape: io}
+      - {x: -40, y: 10, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -4637,7 +4670,7 @@ voice_parts:
     lyric: た
     pitch:
       data:
-      - {x: -40, y: 0, shape: io}
+      - {x: -40, y: -10, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -7277,5 +7310,29 @@ wave_parts:
   position: 847
   relative_path: ..\UtauReference\01_08_春日影 (MyGO!!!!! ver.).flac
   file_duration_ms: 256613.3333
+  skip_ms: 0
+  trim_ms: 0
+- name: 1_01_08_春日影 (MyGO!!!!! ver.)_(Instrumental).flac
+  comment: ""
+  track_no: 3
+  position: 848
+  relative_path: ..\UtauReference\1_01_08_春日影 (MyGO!!!!! ver.)_(Instrumental).flac
+  file_duration_ms: 256613.3333
+  skip_ms: 0
+  trim_ms: 0
+- name: CRYCHIC - 春日影.mp3
+  comment: ""
+  track_no: 4
+  position: 1064
+  relative_path: ..\UtauReference\CRYCHIC - 春日影.mp3
+  file_duration_ms: 257880.8163
+  skip_ms: 0
+  trim_ms: 0
+- name: 1_CRYCHIC - 春日影_(Instrumental).flac
+  comment: ""
+  track_no: 5
+  position: 1084
+  relative_path: ..\UtauReference\1_CRYCHIC - 春日影_(Instrumental).flac
+  file_duration_ms: 257839.9999
   skip_ms: 0
   trim_ms: 0
