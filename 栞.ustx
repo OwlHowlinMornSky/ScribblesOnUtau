@@ -269,9 +269,20 @@ tracks:
   renderer_settings: {}
   track_name: org
   track_color: Blue
-  mute: false
+  mute: true
   solo: false
   volume: -12
+  pan: 0
+  track_expressions: []
+  voice_color_names:
+  - ""
+- phonemizer: OpenUtau.Core.DefaultPhonemizer
+  renderer_settings: {}
+  track_name: Track4
+  track_color: Blue
+  mute: false
+  solo: false
+  volume: -4.68292682926829
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -588,11 +599,11 @@ voice_parts:
     phoneme_overrides: []
   - position: 5880
     duration: 120
-    tone: 62
+    tone: 64
     lyric: さ
     pitch:
       data:
-      - {x: -40, y: 20, shape: io}
+      - {x: -40, y: 0, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -604,7 +615,7 @@ voice_parts:
     lyric: し
     pitch:
       data:
-      - {x: -40, y: 0, shape: io}
+      - {x: -40, y: 20, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -2399,11 +2410,11 @@ voice_parts:
     phoneme_overrides: []
   - position: 5880
     duration: 120
-    tone: 62
+    tone: 64
     lyric: い
     pitch:
       data:
-      - {x: -40, y: 20, shape: io}
+      - {x: -40, y: 0, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -2415,7 +2426,7 @@ voice_parts:
     lyric: しょ
     pitch:
       data:
-      - {x: -40, y: 0, shape: io}
+      - {x: -40, y: 20, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -2827,7 +2838,7 @@ voice_parts:
   - position: 3720
     duration: 240
     tone: 64
-    lyric: '* を'
+    lyric: を
     pitch:
       data:
       - {x: -40, y: 0, shape: io}
@@ -2837,7 +2848,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 3960
-    duration: 240
+    duration: 120
     tone: 62
     lyric: '- お'
     pitch:
@@ -2847,9 +2858,12 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 4200
-    duration: 120
+    phoneme_overrides:
+    - index: 0
+      preutter_delta: 97.11364
+      overlap_delta: 62.386368
+  - position: 4080
+    duration: 260
     tone: 62
     lyric: そ
     pitch:
@@ -2859,9 +2873,11 @@ voice_parts:
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 4320
-    duration: 240
+    phoneme_overrides:
+    - index: 0
+      preutter_delta: -48.295456
+  - position: 4340
+    duration: 220
     tone: 61
     lyric: れ
     pitch:
@@ -3252,6 +3268,9 @@ voice_parts:
     - -240
     - 0
     abbr: dyn
+  - xs: []
+    ys: []
+    abbr: pitd
 - duration: 2880
   name: New Part
   comment: ""
@@ -5270,11 +5289,11 @@ voice_parts:
     phoneme_overrides: []
   - position: 4920
     duration: 120
-    tone: 62
+    tone: 64
     lyric: た
     pitch:
       data:
-      - {x: -40, y: 20, shape: io}
+      - {x: -40, y: 0, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -5286,7 +5305,7 @@ voice_parts:
     lyric: ち
     pitch:
       data:
-      - {x: -40, y: 0, shape: io}
+      - {x: -40, y: 20, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -6934,11 +6953,11 @@ voice_parts:
     phoneme_overrides: []
   - position: 4920
     duration: 120
-    tone: 62
+    tone: 64
     lyric: を
     pitch:
       data:
-      - {x: -40, y: 20, shape: io}
+      - {x: -40, y: 0, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -6950,7 +6969,7 @@ voice_parts:
     lyric: か
     pitch:
       data:
-      - {x: -40, y: 0, shape: io}
+      - {x: -40, y: 20, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -9629,6 +9648,14 @@ wave_parts:
   track_no: 2
   position: 422
   relative_path: ..\UtauReference\01_01_栞.flac
+  file_duration_ms: 266413.3333
+  skip_ms: 0
+  trim_ms: 0
+- name: 1_01_01_栞_(Instrumental).flac
+  comment: ""
+  track_no: 3
+  position: 424
+  relative_path: ..\UtauReference\1_01_01_栞_(Instrumental).flac
   file_duration_ms: 266413.3333
   skip_ms: 0
   trim_ms: 0
