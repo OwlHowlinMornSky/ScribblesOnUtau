@@ -303,7 +303,7 @@ tracks:
   track_color: Blue
   mute: true
   solo: false
-  volume: -12
+  volume: -9
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -1262,12 +1262,12 @@ voice_parts:
     phoneme_overrides: []
   - position: 7560
     duration: 120
-    tone: 62
+    tone: 69
     lyric: っ
     pitch:
       data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
+      - {x: 11.363636, y: -70, shape: io}
+      - {x: 115.056816, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
@@ -1278,7 +1278,7 @@ voice_parts:
     lyric: た
     pitch:
       data:
-      - {x: -40, y: -70, shape: io}
+      - {x: -40, y: 0, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -2688,7 +2688,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   - position: 1200
-    duration: 360
+    duration: 240
     tone: 67
     lyric: で
     pitch:
