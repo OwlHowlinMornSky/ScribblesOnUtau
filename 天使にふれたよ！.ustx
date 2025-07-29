@@ -271,7 +271,7 @@ tracks:
   track_color: Blue
   mute: true
   solo: false
-  volume: -9.073170731707318
+  volume: -7
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -282,7 +282,7 @@ tracks:
   track_color: Blue
   mute: false
   solo: false
-  volume: -7.756097560975608
+  volume: -7
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -3663,7 +3663,7 @@ voice_parts:
   position: 28320
   notes:
   - position: 480
-    duration: 120
+    duration: 240
     tone: 62
     lyric: そ
     pitch:
@@ -3674,7 +3674,7 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
     phoneme_overrides: []
-  - position: 600
+  - position: 720
     duration: 120
     tone: 62
     lyric: お
