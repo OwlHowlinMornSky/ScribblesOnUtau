@@ -1391,7 +1391,7 @@ wave_parts:
   comment: ""
   track_no: 3
   position: 855
-  relative_path: ..\UtauReference\重音テト,マサラダ - ちっちゃな私.mp3
+  relative_path: ..\..\UtauReference\重音テト,マサラダ - ちっちゃな私.mp3
   file_duration_ms: 231576
   skip_ms: 0
   trim_ms: 0

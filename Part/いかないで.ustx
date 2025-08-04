@@ -2703,7 +2703,7 @@ wave_parts:
   comment: ""
   track_no: 2
   position: 1527
-  relative_path: ..\UtauReference\歌愛ユキ 想太 - いかないで.mp3
+  relative_path: ..\..\UtauReference\歌愛ユキ 想太 - いかないで.mp3
   file_duration_ms: 195735.5102
   skip_ms: 0
   trim_ms: 0
