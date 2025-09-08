@@ -12182,7 +12182,7 @@ wave_parts:
   comment: ""
   track_no: 4
   position: 780
-  relative_path: ..\..\UtauReference\01_01_モニタリング.flac
+  relative_path: ..\UtauReference\01_01_モニタリング.flac
   file_duration_ms: 176796.7346
   skip_ms: 0
   trim_ms: 0
@@ -12190,7 +12190,7 @@ wave_parts:
   comment: ""
   track_no: 5
   position: 780
-  relative_path: ..\..\UtauReference\01_02_モニタリング -Instrumental-.flac
+  relative_path: ..\UtauReference\01_02_モニタリング -Instrumental-.flac
   file_duration_ms: 176613.3333
   skip_ms: 0
   trim_ms: 0
