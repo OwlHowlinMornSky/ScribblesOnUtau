@@ -2,7 +2,7 @@
 comment: ""
 output_dir: Vocal
 cache_dir: UCache
-ustx_version: "0.6"
+ustx_version: "0.7"
 resolution: 480
 bpm: 120
 beat_per_bar: 4
@@ -216,6 +216,11 @@ exp_selectors:
 - clr
 - eng
 - vel
+- vol
+- atk
+- dec
+- gen
+- bre
 exp_primary: 2
 exp_secondary: 0
 key: 5
@@ -7713,11 +7718,11 @@ voice_parts:
     phoneme_overrides: []
   - position: 2400
     duration: 120
-    tone: 77
+    tone: 79
     lyric: ぞ
     pitch:
       data:
-      - {x: -40, y: 0, shape: io}
+      - {x: -40, y: -20, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -7729,7 +7734,7 @@ voice_parts:
     lyric: い
     pitch:
       data:
-      - {x: -40, y: -20, shape: io}
+      - {x: -40, y: 0, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
