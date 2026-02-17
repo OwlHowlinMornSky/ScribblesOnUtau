@@ -5510,10 +5510,10 @@ voice_parts:
     lyric: に
     pitch:
       data:
-      - {x: -56.81818, y: -20, shape: io}
-      - {x: 25.568182, y: -9.111251, shape: io}
-      - {x: 106.53409, y: -9.111251, shape: io}
-      - {x: 180.39772, y: 0, shape: io}
+      - {x: -102.27273, y: -20, shape: io}
+      - {x: -7.1022725, y: -5.7715173, shape: io}
+      - {x: 116.47727, y: -5.50847, shape: io}
+      - {x: 150.56818, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
