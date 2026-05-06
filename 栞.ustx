@@ -304,7 +304,7 @@ tracks:
   track_color: Blue
   mute: false
   solo: false
-  volume: -17
+  volume: -18
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -318,6 +318,32 @@ tracks:
   mute: false
   solo: false
   volume: -12
+  pan: 0
+  track_expressions: []
+  voice_color_names:
+  - ""
+- singer: 足立レイver3.1.3 for OpenUTAU
+  phonemizer: OpenUtau.Plugin.Builtin.JapanesePresampPhonemizer
+  renderer_settings:
+    renderer: WORLDLINE-R
+  track_name: BackupA2
+  track_color: Blue
+  mute: false
+  solo: false
+  volume: -20
+  pan: 0
+  track_expressions: []
+  voice_color_names:
+  - ""
+- singer: 桃音モモSoft
+  phonemizer: OpenUtau.Plugin.Builtin.JapanesePresampPhonemizer
+  renderer_settings:
+    renderer: WORLDLINE-R
+  track_name: BackupB2
+  track_color: Blue
+  mute: false
+  solo: false
+  volume: -14
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -339,7 +365,7 @@ tracks:
   track_color: Blue
   mute: false
   solo: false
-  volume: -9.512195121951219
+  volume: -9
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -10819,7 +10845,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   curves: []
-- duration: 8400
+- duration: 8640
   name: New Part
   comment: ""
   track_no: 4
@@ -11378,13 +11404,6 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   curves: []
-- duration: 6720
-  name: New Part
-  comment: ""
-  track_no: 4
-  position: 51600
-  notes: []
-  curves: []
 - duration: 6000
   name: New Part
   comment: ""
@@ -11559,13 +11578,6 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
     phoneme_overrides: []
-  curves: []
-- duration: 7440
-  name: New Part
-  comment: ""
-  track_no: 4
-  position: 86640
-  notes: []
   curves: []
 - duration: 8040
   name: New Part
@@ -13108,7 +13120,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   curves: []
-- duration: 8400
+- duration: 8640
   name: New Part
   comment: ""
   track_no: 4
@@ -13666,13 +13678,6 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
     phoneme_overrides: []
-  curves: []
-- duration: 6480
-  name: New Part
-  comment: ""
-  track_no: 4
-  position: 162000
-  notes: []
   curves: []
 - duration: 6240
   name: New Part
@@ -14352,7 +14357,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   curves: []
-- duration: 8400
+- duration: 8640
   name: New Part
   comment: ""
   track_no: 5
@@ -14911,13 +14916,6 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   curves: []
-- duration: 6720
-  name: New Part
-  comment: ""
-  track_no: 5
-  position: 51600
-  notes: []
-  curves: []
 - duration: 6000
   name: New Part
   comment: ""
@@ -15092,13 +15090,6 @@ voice_parts:
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
     phoneme_overrides: []
-  curves: []
-- duration: 7440
-  name: New Part
-  comment: ""
-  track_no: 5
-  position: 86640
-  notes: []
   curves: []
 - duration: 8040
   name: New Part
@@ -16641,7 +16632,7 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   curves: []
-- duration: 8400
+- duration: 8640
   name: New Part
   comment: ""
   track_no: 5
@@ -17200,13 +17191,6 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   curves: []
-- duration: 6480
-  name: New Part
-  comment: ""
-  track_no: 5
-  position: 162000
-  notes: []
-  curves: []
 - duration: 6240
   name: New Part
   comment: ""
@@ -17382,10 +17366,1884 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   curves: []
+- duration: 8640
+  name: New Part
+  comment: ""
+  track_no: 6
+  position: 16320
+  notes:
+  - position: 960
+    duration: 960
+    tone: 71
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1920
+    duration: 960
+    tone: 70
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2880
+    duration: 1620
+    tone: 66
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 40, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 4800
+    duration: 960
+    tone: 71
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 5760
+    duration: 960
+    tone: 64
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 70, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 6720
+    duration: 1440
+    tone: 57
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 70, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves:
+  - xs:
+    - 7690
+    - 7705
+    - 7710
+    - 7715
+    - 7720
+    - 7725
+    - 7730
+    - 7735
+    - 7745
+    - 7750
+    - 7760
+    - 7765
+    - 7780
+    - 7785
+    - 7800
+    - 7805
+    - 7810
+    - 7815
+    - 7825
+    - 7835
+    - 7840
+    - 7855
+    - 7870
+    - 7875
+    - 7880
+    - 7885
+    - 7890
+    - 7900
+    - 7905
+    - 7910
+    - 7955
+    - 7960
+    - 7965
+    - 7975
+    - 7980
+    - 7990
+    - 8000
+    - 8005
+    - 8010
+    - 8020
+    - 8035
+    - 8040
+    - 8055
+    - 8060
+    - 8065
+    - 8075
+    - 8080
+    - 8085
+    - 8090
+    - 8100
+    - 8105
+    - 8110
+    - 8115
+    - 8125
+    - 8130
+    - 8135
+    - 8140
+    - 8145
+    - 8155
+    - 8165
+    - 8175
+    - 8185
+    - 8195
+    - 8205
+    - 8215
+    - 8220
+    - 8225
+    - 8230
+    - 8235
+    - 8250
+    - 8260
+    - 8270
+    - 8275
+    - 8285
+    - 8290
+    - 8300
+    - 8305
+    - 8310
+    - 8315
+    - 8325
+    - 8330
+    - 8460
+    - 8500
+    - 8595
+    - 8635
+    - 8665
+    - 8670
+    - 8675
+    ys:
+    - 0
+    - 0
+    - -2
+    - -2
+    - 2
+    - 0
+    - 0
+    - -2
+    - -2
+    - -5
+    - -5
+    - -7
+    - -7
+    - -10
+    - -10
+    - -12
+    - -12
+    - -14
+    - -14
+    - -19
+    - -19
+    - -26
+    - -29
+    - -29
+    - -31
+    - -31
+    - -36
+    - -36
+    - -37
+    - -41
+    - -50
+    - -52
+    - -53
+    - -55
+    - -55
+    - -60
+    - -60
+    - -62
+    - -62
+    - -67
+    - -70
+    - -72
+    - -72
+    - -74
+    - -77
+    - -77
+    - -79
+    - -82
+    - -82
+    - -86
+    - -91
+    - -91
+    - -96
+    - -101
+    - -103
+    - -108
+    - -108
+    - -113
+    - -118
+    - -122
+    - -130
+    - -134
+    - -142
+    - -146
+    - -154
+    - -154
+    - -156
+    - -163
+    - -227
+    - -228
+    - -230
+    - -230
+    - -233
+    - -233
+    - -235
+    - -235
+    - -238
+    - -238
+    - -240
+    - -240
+    - -76
+    - -89
+    - -91
+    - -101
+    - -106
+    - -108
+    - -108
+    - 0
+    abbr: dyn
+- duration: 8640
+  name: New Part
+  comment: ""
+  track_no: 6
+  position: 50040
+  notes:
+  - position: 960
+    duration: 960
+    tone: 71
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1920
+    duration: 960
+    tone: 66
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 50, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2880
+    duration: 1620
+    tone: 66
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 4800
+    duration: 960
+    tone: 71
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 5760
+    duration: 960
+    tone: 66
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 50, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 6720
+    duration: 1440
+    tone: 66
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves:
+  - xs:
+    - 7690
+    - 7705
+    - 7710
+    - 7715
+    - 7720
+    - 7725
+    - 7730
+    - 7735
+    - 7745
+    - 7750
+    - 7760
+    - 7765
+    - 7780
+    - 7785
+    - 7800
+    - 7805
+    - 7810
+    - 7815
+    - 7825
+    - 7835
+    - 7840
+    - 7855
+    - 7870
+    - 7875
+    - 7880
+    - 7885
+    - 7890
+    - 7900
+    - 7905
+    - 7910
+    - 7955
+    - 7960
+    - 7965
+    - 7975
+    - 7980
+    - 7990
+    - 8000
+    - 8005
+    - 8010
+    - 8020
+    - 8035
+    - 8040
+    - 8055
+    - 8060
+    - 8065
+    - 8075
+    - 8080
+    - 8085
+    - 8090
+    - 8100
+    - 8105
+    - 8110
+    - 8115
+    - 8125
+    - 8130
+    - 8135
+    - 8140
+    - 8145
+    - 8155
+    - 8165
+    - 8175
+    - 8185
+    - 8195
+    - 8205
+    - 8215
+    - 8220
+    - 8225
+    - 8230
+    - 8235
+    - 8250
+    - 8260
+    - 8270
+    - 8275
+    - 8285
+    - 8290
+    - 8300
+    - 8305
+    - 8310
+    - 8315
+    - 8325
+    - 8330
+    - 8460
+    - 8500
+    - 8595
+    - 8635
+    - 8665
+    - 8670
+    - 8675
+    ys:
+    - 0
+    - 0
+    - -2
+    - -2
+    - 2
+    - 0
+    - 0
+    - -2
+    - -2
+    - -5
+    - -5
+    - -7
+    - -7
+    - -10
+    - -10
+    - -12
+    - -12
+    - -14
+    - -14
+    - -19
+    - -19
+    - -26
+    - -29
+    - -29
+    - -31
+    - -31
+    - -36
+    - -36
+    - -37
+    - -41
+    - -50
+    - -52
+    - -53
+    - -55
+    - -55
+    - -60
+    - -60
+    - -62
+    - -62
+    - -67
+    - -70
+    - -72
+    - -72
+    - -74
+    - -77
+    - -77
+    - -79
+    - -82
+    - -82
+    - -86
+    - -91
+    - -91
+    - -96
+    - -101
+    - -103
+    - -108
+    - -108
+    - -113
+    - -118
+    - -122
+    - -130
+    - -134
+    - -142
+    - -146
+    - -154
+    - -154
+    - -156
+    - -163
+    - -227
+    - -228
+    - -230
+    - -230
+    - -233
+    - -233
+    - -235
+    - -235
+    - -238
+    - -238
+    - -240
+    - -240
+    - -76
+    - -89
+    - -91
+    - -101
+    - -106
+    - -108
+    - -108
+    - 0
+    abbr: dyn
+- duration: 8640
+  name: New Part
+  comment: ""
+  track_no: 6
+  position: 86520
+  notes:
+  - position: 960
+    duration: 960
+    tone: 71
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1920
+    duration: 960
+    tone: 70
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2880
+    duration: 1620
+    tone: 66
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 40, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 4800
+    duration: 960
+    tone: 71
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 5760
+    duration: 960
+    tone: 64
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 70, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 6720
+    duration: 1440
+    tone: 57
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 70, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves:
+  - xs:
+    - 7650
+    - 7655
+    - 7660
+    - 7665
+    - 7680
+    - 7685
+    - 7700
+    - 7705
+    - 7715
+    - 7725
+    - 7740
+    - 7745
+    - 7755
+    - 7760
+    - 7785
+    - 7805
+    - 7815
+    - 7840
+    - 7850
+    - 7865
+    - 7900
+    - 7910
+    - 7925
+    - 7940
+    - 7960
+    - 7970
+    - 7985
+    - 8005
+    - 8025
+    - 8045
+    - 8065
+    - 8080
+    - 8125
+    - 8135
+    - 8140
+    - 8170
+    - 8175
+    - 8185
+    - 8190
+    - 8210
+    - 8220
+    - 8230
+    - 8250
+    - 8260
+    - 8265
+    - 8270
+    - 8290
+    - 8300
+    - 8310
+    - 8320
+    - 8325
+    - 8330
+    - 8335
+    ys:
+    - 0
+    - 7
+    - 7
+    - 5
+    - 5
+    - 2
+    - 2
+    - 0
+    - 0
+    - -5
+    - -5
+    - -7
+    - -7
+    - -10
+    - -14
+    - -19
+    - -22
+    - -26
+    - -29
+    - -31
+    - -41
+    - -43
+    - -50
+    - -53
+    - -60
+    - -62
+    - -70
+    - -74
+    - -84
+    - -91
+    - -101
+    - -106
+    - -130
+    - -132
+    - -137
+    - -151
+    - -156
+    - -161
+    - -166
+    - -173
+    - -178
+    - -185
+    - -190
+    - -197
+    - -199
+    - -204
+    - -214
+    - -218
+    - -226
+    - -230
+    - -238
+    - -238
+    - 0
+    abbr: dyn
+- duration: 8640
+  name: New Part
+  comment: ""
+  track_no: 6
+  position: 160440
+  notes:
+  - position: 960
+    duration: 960
+    tone: 71
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1920
+    duration: 960
+    tone: 66
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 50, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2880
+    duration: 1620
+    tone: 66
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 4800
+    duration: 960
+    tone: 71
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 5760
+    duration: 960
+    tone: 66
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 50, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 6720
+    duration: 1440
+    tone: 66
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves:
+  - xs:
+    - 7690
+    - 7705
+    - 7710
+    - 7715
+    - 7720
+    - 7725
+    - 7730
+    - 7735
+    - 7745
+    - 7750
+    - 7760
+    - 7765
+    - 7780
+    - 7785
+    - 7800
+    - 7805
+    - 7810
+    - 7815
+    - 7825
+    - 7835
+    - 7840
+    - 7855
+    - 7870
+    - 7875
+    - 7880
+    - 7885
+    - 7890
+    - 7900
+    - 7905
+    - 7910
+    - 7955
+    - 7960
+    - 7965
+    - 7975
+    - 7980
+    - 7990
+    - 8000
+    - 8005
+    - 8010
+    - 8020
+    - 8035
+    - 8040
+    - 8055
+    - 8060
+    - 8065
+    - 8075
+    - 8080
+    - 8085
+    - 8090
+    - 8100
+    - 8105
+    - 8110
+    - 8115
+    - 8125
+    - 8130
+    - 8135
+    - 8140
+    - 8145
+    - 8155
+    - 8165
+    - 8175
+    - 8185
+    - 8195
+    - 8205
+    - 8215
+    - 8220
+    - 8225
+    - 8230
+    - 8235
+    - 8250
+    - 8260
+    - 8270
+    - 8275
+    - 8285
+    - 8290
+    - 8300
+    - 8305
+    - 8310
+    - 8315
+    - 8325
+    - 8330
+    - 8460
+    - 8500
+    - 8595
+    - 8635
+    - 8665
+    - 8670
+    - 8675
+    ys:
+    - 0
+    - 0
+    - -2
+    - -2
+    - 2
+    - 0
+    - 0
+    - -2
+    - -2
+    - -5
+    - -5
+    - -7
+    - -7
+    - -10
+    - -10
+    - -12
+    - -12
+    - -14
+    - -14
+    - -19
+    - -19
+    - -26
+    - -29
+    - -29
+    - -31
+    - -31
+    - -36
+    - -36
+    - -37
+    - -41
+    - -50
+    - -52
+    - -53
+    - -55
+    - -55
+    - -60
+    - -60
+    - -62
+    - -62
+    - -67
+    - -70
+    - -72
+    - -72
+    - -74
+    - -77
+    - -77
+    - -79
+    - -82
+    - -82
+    - -86
+    - -91
+    - -91
+    - -96
+    - -101
+    - -103
+    - -108
+    - -108
+    - -113
+    - -118
+    - -122
+    - -130
+    - -134
+    - -142
+    - -146
+    - -154
+    - -154
+    - -156
+    - -163
+    - -227
+    - -228
+    - -230
+    - -230
+    - -233
+    - -233
+    - -235
+    - -235
+    - -238
+    - -238
+    - -240
+    - -240
+    - -76
+    - -89
+    - -91
+    - -101
+    - -106
+    - -108
+    - -108
+    - 0
+    abbr: dyn
+- duration: 8640
+  name: New Part
+  comment: ""
+  track_no: 7
+  position: 16320
+  notes:
+  - position: 960
+    duration: 960
+    tone: 67
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1920
+    duration: 960
+    tone: 66
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2880
+    duration: 1620
+    tone: 71
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: -50, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 4800
+    duration: 960
+    tone: 66
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 5760
+    duration: 960
+    tone: 69
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: -30, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 6720
+    duration: 1440
+    tone: 69
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves:
+  - xs:
+    - 7735
+    - 7740
+    - 7745
+    - 7750
+    - 7775
+    - 7790
+    - 7795
+    - 7820
+    - 7830
+    - 7840
+    - 7855
+    - 7870
+    - 7880
+    - 7915
+    - 7930
+    - 7945
+    - 8005
+    - 8015
+    - 8020
+    - 8025
+    - 8035
+    - 8040
+    - 8045
+    - 8055
+    - 8060
+    - 8070
+    - 8075
+    - 8090
+    - 8095
+    - 8105
+    - 8115
+    - 8130
+    - 8135
+    - 8145
+    - 8155
+    - 8160
+    - 8170
+    - 8180
+    - 8185
+    - 8190
+    - 8195
+    - 8200
+    - 8205
+    - 8210
+    - 8215
+    - 8230
+    - 8240
+    - 8245
+    - 8250
+    - 8255
+    - 8265
+    - 8270
+    - 8280
+    - 8285
+    - 8290
+    - 8300
+    - 8305
+    - 8310
+    - 8315
+    - 8320
+    - 8325
+    - 8345
+    - 8350
+    - 8355
+    - 8370
+    - 8375
+    ys:
+    - 0
+    - -2
+    - -2
+    - -5
+    - -7
+    - -7
+    - -10
+    - -10
+    - -12
+    - -12
+    - -17
+    - -17
+    - -22
+    - -26
+    - -29
+    - -34
+    - -41
+    - -44
+    - -50
+    - -50
+    - -55
+    - -58
+    - -58
+    - -62
+    - -65
+    - -67
+    - -67
+    - -74
+    - -74
+    - -79
+    - -82
+    - -84
+    - -84
+    - -89
+    - -91
+    - -94
+    - -94
+    - -98
+    - -101
+    - -101
+    - -103
+    - -106
+    - -106
+    - -110
+    - -110
+    - -118
+    - -122
+    - -125
+    - -127
+    - -130
+    - -134
+    - -137
+    - -146
+    - -149
+    - -154
+    - -158
+    - -166
+    - -168
+    - -173
+    - -173
+    - -180
+    - -190
+    - -192
+    - -97
+    - -101
+    - 0
+    abbr: dyn
+- duration: 8640
+  name: New Part
+  comment: ""
+  track_no: 7
+  position: 50040
+  notes:
+  - position: 960
+    duration: 960
+    tone: 67
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1920
+    duration: 960
+    tone: 69
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2880
+    duration: 1620
+    tone: 71
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 4800
+    duration: 960
+    tone: 67
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 5760
+    duration: 960
+    tone: 69
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 6720
+    duration: 1440
+    tone: 69
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves:
+  - xs:
+    - 7735
+    - 7740
+    - 7745
+    - 7750
+    - 7775
+    - 7790
+    - 7795
+    - 7820
+    - 7830
+    - 7840
+    - 7855
+    - 7870
+    - 7880
+    - 7915
+    - 7930
+    - 7945
+    - 8005
+    - 8015
+    - 8020
+    - 8025
+    - 8035
+    - 8040
+    - 8045
+    - 8055
+    - 8060
+    - 8070
+    - 8075
+    - 8090
+    - 8095
+    - 8105
+    - 8115
+    - 8130
+    - 8135
+    - 8145
+    - 8155
+    - 8160
+    - 8170
+    - 8180
+    - 8185
+    - 8190
+    - 8195
+    - 8200
+    - 8205
+    - 8210
+    - 8215
+    - 8230
+    - 8240
+    - 8245
+    - 8250
+    - 8255
+    - 8265
+    - 8270
+    - 8280
+    - 8285
+    - 8290
+    - 8300
+    - 8305
+    - 8310
+    - 8315
+    - 8320
+    - 8325
+    - 8345
+    - 8350
+    - 8355
+    - 8370
+    - 8375
+    ys:
+    - 0
+    - -2
+    - -2
+    - -5
+    - -7
+    - -7
+    - -10
+    - -10
+    - -12
+    - -12
+    - -17
+    - -17
+    - -22
+    - -26
+    - -29
+    - -34
+    - -41
+    - -44
+    - -50
+    - -50
+    - -55
+    - -58
+    - -58
+    - -62
+    - -65
+    - -67
+    - -67
+    - -74
+    - -74
+    - -79
+    - -82
+    - -84
+    - -84
+    - -89
+    - -91
+    - -94
+    - -94
+    - -98
+    - -101
+    - -101
+    - -103
+    - -106
+    - -106
+    - -110
+    - -110
+    - -118
+    - -122
+    - -125
+    - -127
+    - -130
+    - -134
+    - -137
+    - -146
+    - -149
+    - -154
+    - -158
+    - -166
+    - -168
+    - -173
+    - -173
+    - -180
+    - -190
+    - -192
+    - -97
+    - -101
+    - 0
+    abbr: dyn
+- duration: 8640
+  name: New Part
+  comment: ""
+  track_no: 7
+  position: 86520
+  notes:
+  - position: 960
+    duration: 960
+    tone: 67
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1920
+    duration: 960
+    tone: 66
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2880
+    duration: 1620
+    tone: 71
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: -50, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 4800
+    duration: 960
+    tone: 67
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 5760
+    duration: 960
+    tone: 69
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 6720
+    duration: 1440
+    tone: 69
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves:
+  - xs:
+    - 7720
+    - 7725
+    - 7750
+    - 7755
+    - 7765
+    - 7770
+    - 7775
+    - 7780
+    - 7785
+    - 7790
+    - 7795
+    - 7800
+    - 7805
+    - 7815
+    - 7820
+    - 7830
+    - 7835
+    - 7840
+    - 7845
+    - 7855
+    - 7865
+    - 7875
+    - 7885
+    - 7890
+    - 7900
+    - 7910
+    - 7915
+    - 7925
+    - 7930
+    - 7940
+    - 7945
+    - 7955
+    - 7960
+    - 7965
+    - 7970
+    - 7975
+    - 7980
+    - 7995
+    - 8000
+    - 8010
+    - 8015
+    - 8025
+    - 8030
+    - 8050
+    - 8055
+    - 8060
+    - 8065
+    - 8070
+    - 8080
+    - 8085
+    - 8090
+    - 8095
+    - 8100
+    - 8120
+    - 8125
+    - 8130
+    - 8135
+    - 8145
+    - 8155
+    - 8160
+    - 8170
+    - 8180
+    - 8185
+    - 8190
+    - 8195
+    - 8205
+    - 8215
+    - 8225
+    - 8235
+    - 8240
+    - 8250
+    - 8260
+    - 8270
+    - 8275
+    - 8285
+    - 8295
+    - 8300
+    - 8305
+    - 8310
+    - 8315
+    - 8335
+    - 8340
+    - 8345
+    - 8360
+    - 8365
+    - 8375
+    - 8385
+    - 8395
+    - 8400
+    - 8405
+    - 8410
+    - 8415
+    - 8420
+    - 8425
+    ys:
+    - 0
+    - 2
+    - 2
+    - 0
+    - 0
+    - -2
+    - -2
+    - -5
+    - -5
+    - -7
+    - -7
+    - -10
+    - -10
+    - -14
+    - -14
+    - -19
+    - -19
+    - -22
+    - -22
+    - -26
+    - -26
+    - -31
+    - -31
+    - -34
+    - -34
+    - -36
+    - -38
+    - -38
+    - -41
+    - -41
+    - -43
+    - -43
+    - -46
+    - -46
+    - -48
+    - -48
+    - -50
+    - -58
+    - -58
+    - -62
+    - -62
+    - -67
+    - -67
+    - -77
+    - -77
+    - -79
+    - -82
+    - -82
+    - -86
+    - -86
+    - -89
+    - -89
+    - -94
+    - -103
+    - -106
+    - -108
+    - -113
+    - -118
+    - -122
+    - -127
+    - -130
+    - -137
+    - -138
+    - -142
+    - -142
+    - -146
+    - -154
+    - -158
+    - -166
+    - -168
+    - -178
+    - -182
+    - -192
+    - -194
+    - -211
+    - -221
+    - -223
+    - -233
+    - -235
+    - -240
+    - -240
+    - -149
+    - -154
+    - -160
+    - -163
+    - -166
+    - -173
+    - -175
+    - -180
+    - -182
+    - -182
+    - -187
+    - -185
+    - 0
+    abbr: dyn
+- duration: 8640
+  name: New Part
+  comment: ""
+  track_no: 7
+  position: 160440
+  notes:
+  - position: 960
+    duration: 960
+    tone: 67
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1920
+    duration: 960
+    tone: 69
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2880
+    duration: 1620
+    tone: 71
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 4800
+    duration: 960
+    tone: 67
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 5760
+    duration: 960
+    tone: 69
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 6720
+    duration: 1440
+    tone: 69
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves:
+  - xs:
+    - 7735
+    - 7740
+    - 7745
+    - 7750
+    - 7775
+    - 7790
+    - 7795
+    - 7820
+    - 7830
+    - 7840
+    - 7855
+    - 7870
+    - 7880
+    - 7915
+    - 7930
+    - 7945
+    - 8005
+    - 8015
+    - 8020
+    - 8025
+    - 8035
+    - 8040
+    - 8045
+    - 8055
+    - 8060
+    - 8070
+    - 8075
+    - 8090
+    - 8095
+    - 8105
+    - 8115
+    - 8130
+    - 8135
+    - 8145
+    - 8155
+    - 8160
+    - 8170
+    - 8180
+    - 8185
+    - 8190
+    - 8195
+    - 8200
+    - 8205
+    - 8210
+    - 8215
+    - 8230
+    - 8240
+    - 8245
+    - 8250
+    - 8255
+    - 8265
+    - 8270
+    - 8280
+    - 8285
+    - 8290
+    - 8300
+    - 8305
+    - 8310
+    - 8315
+    - 8320
+    - 8325
+    - 8345
+    - 8350
+    - 8355
+    - 8370
+    - 8375
+    ys:
+    - 0
+    - -2
+    - -2
+    - -5
+    - -7
+    - -7
+    - -10
+    - -10
+    - -12
+    - -12
+    - -17
+    - -17
+    - -22
+    - -26
+    - -29
+    - -34
+    - -41
+    - -44
+    - -50
+    - -50
+    - -55
+    - -58
+    - -58
+    - -62
+    - -65
+    - -67
+    - -67
+    - -74
+    - -74
+    - -79
+    - -82
+    - -84
+    - -84
+    - -89
+    - -91
+    - -94
+    - -94
+    - -98
+    - -101
+    - -101
+    - -103
+    - -106
+    - -106
+    - -110
+    - -110
+    - -118
+    - -122
+    - -125
+    - -127
+    - -130
+    - -134
+    - -137
+    - -146
+    - -149
+    - -154
+    - -158
+    - -166
+    - -168
+    - -173
+    - -173
+    - -180
+    - -190
+    - -192
+    - -97
+    - -101
+    - 0
+    abbr: dyn
 wave_parts:
 - name: 01_01_栞.flac
   comment: ""
-  track_no: 6
+  track_no: 8
   position: 422
   relative_path: ..\UtauReference\01_01_栞.flac
   file_duration_ms: 266413.3333
@@ -17393,7 +19251,7 @@ wave_parts:
   trim_ms: 0
 - name: 1_01_01_栞_(Instrumental).flac
   comment: ""
-  track_no: 7
+  track_no: 9
   position: 412
   relative_path: ..\UtauReference\1_01_01_栞_(Instrumental).flac
   file_duration_ms: 266413.3333
