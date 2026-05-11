@@ -304,7 +304,7 @@ tracks:
   track_color: Blue
   mute: false
   solo: false
-  volume: -18
+  volume: -16
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -317,7 +317,7 @@ tracks:
   track_color: Blue
   mute: false
   solo: false
-  volume: -12
+  volume: -10
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -330,7 +330,7 @@ tracks:
   track_color: Blue
   mute: false
   solo: false
-  volume: -20
+  volume: -18
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -343,7 +343,7 @@ tracks:
   track_color: Blue
   mute: false
   solo: false
-  volume: -14
+  volume: -12
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -4561,7 +4561,7 @@ voice_parts:
       - {x: 5.681818, y: 0.844887, shape: io}
       - {x: 78.125, y: 0, shape: io}
       snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    vibrato: {length: 85.55556, period: 147.72728, depth: 5, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
     phoneme_overrides: []
   curves: []
@@ -18548,7 +18548,7 @@ voice_parts:
     phoneme_overrides: []
   - position: 4800
     duration: 960
-    tone: 66
+    tone: 67
     lyric: a
     pitch:
       data:
@@ -18564,7 +18564,7 @@ voice_parts:
     lyric: a
     pitch:
       data:
-      - {x: -40, y: -30, shape: io}
+      - {x: -40, y: -20, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -19428,7 +19428,7 @@ wave_parts:
 - name: 1_01_01_栞_(Instrumental).flac
   comment: ""
   track_no: 9
-  position: 412
+  position: 422
   relative_path: ..\UtauReference\1_01_01_栞_(Instrumental).flac
   file_duration_ms: 266413.3333
   skip_ms: 0
