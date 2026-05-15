@@ -1485,8 +1485,8 @@ voice_parts:
       data:
       - {x: -105.11364, y: 70, shape: io}
       - {x: -18.46591, y: -14.207965, shape: io}
-      - {x: 55.397728, y: -0.72679925, shape: io}
-      - {x: 271.30682, y: 0.25962752, shape: io}
+      - {x: 52.55682, y: 1.2570146, shape: io}
+      - {x: 271.30682, y: 0.98300713, shape: io}
       - {x: 444.60226, y: -80.95618, shape: io}
       - {x: 453.125, y: 0, shape: io}
       snap_first: true
@@ -1528,9 +1528,9 @@ voice_parts:
       data:
       - {x: -82.38636, y: 70, shape: io}
       - {x: -2.840909, y: -3.8442075, shape: io}
-      - {x: 52.55682, y: 0.25962752, shape: io}
-      - {x: 167.61363, y: -0.72679925, shape: io}
-      - {x: 279.82956, y: -0.0691814, shape: io}
+      - {x: 51.136364, y: 1.2570146, shape: io}
+      - {x: 166.19318, y: 0.43499228, shape: io}
+      - {x: 278.4091, y: 0.98300713, shape: io}
       - {x: 373.57956, y: -73.72238, shape: io}
       - {x: 495.73865, y: 0, shape: io}
       snap_first: true
