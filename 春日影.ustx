@@ -221,8 +221,8 @@ exp_selectors:
 - dec
 - gen
 - bre
-exp_primary: 2
-exp_secondary: 4
+exp_primary: 5
+exp_secondary: 5
 key: 11
 time_signatures:
 - bar_position: 0
@@ -304,7 +304,7 @@ tracks:
   track_color: Blue
   mute: false
   solo: false
-  volume: -18
+  volume: -15
   pan: 0
   track_expressions: []
   voice_color_names:
@@ -314,6 +314,32 @@ tracks:
   renderer_settings:
     renderer: WORLDLINE-R
   track_name: BackupB
+  track_color: Blue
+  mute: false
+  solo: false
+  volume: -9
+  pan: 0
+  track_expressions: []
+  voice_color_names:
+  - ""
+- singer: 足立レイver3.1.3 for OpenUTAU
+  phonemizer: OpenUtau.Plugin.Builtin.JapanesePresampPhonemizer
+  renderer_settings:
+    renderer: WORLDLINE-R
+  track_name: BackupA2
+  track_color: Blue
+  mute: false
+  solo: false
+  volume: -18
+  pan: 0
+  track_expressions: []
+  voice_color_names:
+  - ""
+- singer: 桃音モモSoft
+  phonemizer: OpenUtau.Plugin.Builtin.JapanesePresampPhonemizer
+  renderer_settings:
+    renderer: WORLDLINE-R
+  track_name: BackupB2
   track_color: Blue
   mute: false
   solo: false
@@ -8183,169 +8209,6 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   curves: []
-- duration: 4560
-  name: New Part
-  comment: ""
-  track_no: 4
-  position: 25200
-  notes:
-  - position: 480
-    duration: 240
-    tone: 63
-    lyric: ま
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 720
-    duration: 240
-    tone: 64
-    lyric: い
-    pitch:
-      data:
-      - {x: -40, y: -10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 960
-    duration: 420
-    tone: 63
-    lyric: と
-    pitch:
-      data:
-      - {x: -40, y: 10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1380
-    duration: 60
-    tone: 63
-    lyric: し
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1440
-    duration: 240
-    tone: 63
-    lyric: つ
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1680
-    duration: 240
-    tone: 71
-    lyric: め
-    pitch:
-      data:
-      - {x: -40, y: -80, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1920
-    duration: 240
-    tone: 63
-    lyric: た
-    pitch:
-      data:
-      - {x: -40, y: 80, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2160
-    duration: 480
-    tone: 68
-    lyric: く
-    pitch:
-      data:
-      - {x: -40, y: -50, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2640
-    duration: 240
-    tone: 66
-    lyric: あ
-    pitch:
-      data:
-      - {x: -40, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2880
-    duration: 240
-    tone: 64
-    lyric: し
-    pitch:
-      data:
-      - {x: -40, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3120
-    duration: 240
-    tone: 64
-    lyric: i
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3360
-    duration: 240
-    tone: 63
-    lyric: ら
-    pitch:
-      data:
-      - {x: -40, y: 10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3600
-    duration: 720
-    tone: 63
-    lyric: う
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  curves: []
 - duration: 6240
   name: New Part
   comment: ""
@@ -9551,531 +9414,6 @@ voice_parts:
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  curves: []
-- duration: 6120
-  name: New Part
-  comment: ""
-  track_no: 4
-  position: 75960
-  notes:
-  - position: 120
-    duration: 120
-    tone: 59
-    lyric: き
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 240
-    duration: 120
-    tone: 63
-    lyric: み
-    pitch:
-      data:
-      - {x: -40, y: -40, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 360
-    duration: 480
-    tone: 64
-    lyric: の
-    pitch:
-      data:
-      - {x: -40, y: -10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 840
-    duration: 240
-    tone: 63
-    lyric: て
-    pitch:
-      data:
-      - {x: -40, y: 10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1080
-    duration: 240
-    tone: 63
-    lyric: わ
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1560
-    duration: 240
-    tone: 59
-    lyric: ど
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1800
-    duration: 480
-    tone: 64
-    lyric: お
-    pitch:
-      data:
-      - {x: -40, y: -50, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2280
-    duration: 240
-    tone: 63
-    lyric: し
-    pitch:
-      data:
-      - {x: -40, y: 10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2520
-    duration: 240
-    tone: 63
-    lyric: て
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3000
-    duration: 120
-    tone: 59
-    lyric: こ
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3120
-    duration: 120
-    tone: 63
-    lyric: ん
-    pitch:
-      data:
-      - {x: -40, y: -40, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3240
-    duration: 240
-    tone: 64
-    lyric: な
-    pitch:
-      data:
-      - {x: -40, y: -10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3480
-    duration: 240
-    tone: 64
-    lyric: a
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3720
-    duration: 240
-    tone: 63
-    lyric: に
-    pitch:
-      data:
-      - {x: -40, y: 10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3960
-    duration: 240
-    tone: 63
-    lyric: も
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 4440
-    duration: 120
-    tone: 59
-    lyric: あ
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 4560
-    duration: 120
-    tone: 63
-    lyric: た
-    pitch:
-      data:
-      - {x: -40, y: -40, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 4680
-    duration: 360
-    tone: 64
-    lyric: た
-    pitch:
-      data:
-      - {x: -40, y: -10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 5040
-    duration: 120
-    tone: 63
-    lyric: か
-    pitch:
-      data:
-      - {x: -40, y: 10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 5160
-    duration: 240
-    tone: 64
-    lyric: い
-    pitch:
-      data:
-      - {x: -40, y: -10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 5400
-    duration: 240
-    tone: 66
-    lyric: の
-    pitch:
-      data:
-      - {x: -40, y: -20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  curves: []
-- duration: 4680
-  name: New Part
-  comment: ""
-  track_no: 4
-  position: 81720
-  notes:
-  - position: 120
-    duration: 240
-    tone: 68
-    lyric: ね
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 360
-    duration: 240
-    tone: 66
-    lyric: お
-    pitch:
-      data:
-      - {x: -40, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 600
-    duration: 240
-    tone: 66
-    lyric: o
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 840
-    duration: 240
-    tone: 64
-    lyric: ね
-    pitch:
-      data:
-      - {x: -40, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1080
-    duration: 240
-    tone: 64
-    lyric: が
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1320
-    duration: 60
-    tone: 64
-    lyric: い
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1560
-    duration: 240
-    tone: 63
-    lyric: ど
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1800
-    duration: 480
-    tone: 63
-    lyric: お
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2280
-    duration: 240
-    tone: 61
-    lyric: か
-    pitch:
-      data:
-      - {x: -40, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2520
-    duration: 240
-    tone: 61
-    lyric: こ
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2760
-    duration: 240
-    tone: 59
-    lyric: の
-    pitch:
-      data:
-      - {x: -40, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3000
-    duration: 240
-    tone: 58
-    lyric: ま
-    pitch:
-      data:
-      - {x: -40, y: 10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3240
-    duration: 960
-    tone: 59
-    lyric: ま
-    pitch:
-      data:
-      - {x: -40, y: -10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  curves: []
-- duration: 3840
-  name: New Part
-  comment: ""
-  track_no: 4
-  position: 104160
-  notes:
-  - position: 240
-    duration: 240
-    tone: 63
-    lyric: た
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 480
-    duration: 240
-    tone: 71
-    lyric: し
-    pitch:
-      data:
-      - {x: -40, y: -80, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 720
-    duration: 240
-    tone: 63
-    lyric: か
-    pitch:
-      data:
-      - {x: -40, y: 80, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 960
-    duration: 480
-    tone: 68
-    lyric: め
-    pitch:
-      data:
-      - {x: -40, y: -50, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1440
-    duration: 240
-    tone: 66
-    lyric: る
-    pitch:
-      data:
-      - {x: -40, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1680
-    duration: 480
-    tone: 64
-    lyric: よ
-    pitch:
-      data:
-      - {x: -40, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2160
-    duration: 240
-    tone: 63
-    lyric: お
-    pitch:
-      data:
-      - {x: -40, y: 10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2400
-    duration: 720
-    tone: 63
-    lyric: に
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -11779,265 +11117,6 @@ voice_parts:
     phoneme_expressions: []
     phoneme_overrides: []
   curves: []
-- duration: 6120
-  name: New Part
-  comment: ""
-  track_no: 4
-  position: 176760
-  notes:
-  - position: 120
-    duration: 120
-    tone: 59
-    lyric: き
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 240
-    duration: 120
-    tone: 63
-    lyric: み
-    pitch:
-      data:
-      - {x: -40, y: -40, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 360
-    duration: 480
-    tone: 64
-    lyric: の
-    pitch:
-      data:
-      - {x: -40, y: -10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 840
-    duration: 240
-    tone: 63
-    lyric: て
-    pitch:
-      data:
-      - {x: -40, y: 10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1080
-    duration: 240
-    tone: 63
-    lyric: わ
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1560
-    duration: 240
-    tone: 59
-    lyric: ど
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1800
-    duration: 480
-    tone: 64
-    lyric: お
-    pitch:
-      data:
-      - {x: -40, y: -50, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2280
-    duration: 240
-    tone: 63
-    lyric: し
-    pitch:
-      data:
-      - {x: -40, y: 10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2520
-    duration: 240
-    tone: 63
-    lyric: て
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3000
-    duration: 120
-    tone: 59
-    lyric: こ
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3120
-    duration: 120
-    tone: 63
-    lyric: ん
-    pitch:
-      data:
-      - {x: -40, y: -40, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3240
-    duration: 240
-    tone: 64
-    lyric: な
-    pitch:
-      data:
-      - {x: -40, y: -10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3480
-    duration: 240
-    tone: 64
-    lyric: a
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3720
-    duration: 240
-    tone: 63
-    lyric: に
-    pitch:
-      data:
-      - {x: -40, y: 10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3960
-    duration: 240
-    tone: 63
-    lyric: も
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 4440
-    duration: 120
-    tone: 59
-    lyric: あ
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 4560
-    duration: 120
-    tone: 63
-    lyric: た
-    pitch:
-      data:
-      - {x: -40, y: -40, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 4680
-    duration: 360
-    tone: 64
-    lyric: た
-    pitch:
-      data:
-      - {x: -40, y: -10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 5040
-    duration: 120
-    tone: 63
-    lyric: か
-    pitch:
-      data:
-      - {x: -40, y: 10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 5160
-    duration: 240
-    tone: 64
-    lyric: い
-    pitch:
-      data:
-      - {x: -40, y: -10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 5400
-    duration: 240
-    tone: 66
-    lyric: の
-    pitch:
-      data:
-      - {x: -40, y: -20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  curves: []
 - duration: 4680
   name: New Part
   comment: ""
@@ -12311,169 +11390,6 @@ voice_parts:
       - {x: 29.639175, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 97.5, period: 175, depth: 5, in: 11.463047, out: 3.9718454, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  curves: []
-- duration: 4560
-  name: New Part
-  comment: ""
-  track_no: 5
-  position: 25200
-  notes:
-  - position: 480
-    duration: 240
-    tone: 63
-    lyric: ま
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 720
-    duration: 240
-    tone: 64
-    lyric: い
-    pitch:
-      data:
-      - {x: -40, y: -10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 960
-    duration: 420
-    tone: 63
-    lyric: と
-    pitch:
-      data:
-      - {x: -40, y: 10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1380
-    duration: 60
-    tone: 63
-    lyric: し
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1440
-    duration: 240
-    tone: 63
-    lyric: つ
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1680
-    duration: 240
-    tone: 71
-    lyric: め
-    pitch:
-      data:
-      - {x: -40, y: -80, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1920
-    duration: 240
-    tone: 63
-    lyric: た
-    pitch:
-      data:
-      - {x: -40, y: 80, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2160
-    duration: 480
-    tone: 68
-    lyric: く
-    pitch:
-      data:
-      - {x: -40, y: -50, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2640
-    duration: 240
-    tone: 66
-    lyric: あ
-    pitch:
-      data:
-      - {x: -40, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2880
-    duration: 240
-    tone: 64
-    lyric: し
-    pitch:
-      data:
-      - {x: -40, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3120
-    duration: 240
-    tone: 64
-    lyric: i
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3360
-    duration: 240
-    tone: 63
-    lyric: ら
-    pitch:
-      data:
-      - {x: -40, y: 10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3600
-    duration: 720
-    tone: 63
-    lyric: う
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
     phoneme_overrides: []
   curves: []
@@ -13941,272 +12857,6 @@ voice_parts:
     pitch:
       data:
       - {x: -40, y: -20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  curves: []
-- duration: 4680
-  name: New Part
-  comment: ""
-  track_no: 5
-  position: 81720
-  notes:
-  - position: 120
-    duration: 240
-    tone: 68
-    lyric: ね
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 360
-    duration: 240
-    tone: 66
-    lyric: お
-    pitch:
-      data:
-      - {x: -40, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 600
-    duration: 240
-    tone: 66
-    lyric: o
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 840
-    duration: 240
-    tone: 64
-    lyric: ね
-    pitch:
-      data:
-      - {x: -40, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1080
-    duration: 240
-    tone: 64
-    lyric: が
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1320
-    duration: 60
-    tone: 64
-    lyric: い
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1560
-    duration: 240
-    tone: 63
-    lyric: ど
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1800
-    duration: 480
-    tone: 63
-    lyric: お
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2280
-    duration: 240
-    tone: 61
-    lyric: か
-    pitch:
-      data:
-      - {x: -40, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2520
-    duration: 240
-    tone: 61
-    lyric: こ
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2760
-    duration: 240
-    tone: 59
-    lyric: の
-    pitch:
-      data:
-      - {x: -40, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3000
-    duration: 240
-    tone: 58
-    lyric: ま
-    pitch:
-      data:
-      - {x: -40, y: 10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 3240
-    duration: 960
-    tone: 59
-    lyric: ま
-    pitch:
-      data:
-      - {x: -40, y: -10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  curves: []
-- duration: 3840
-  name: New Part
-  comment: ""
-  track_no: 5
-  position: 104160
-  notes:
-  - position: 240
-    duration: 240
-    tone: 63
-    lyric: た
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 480
-    duration: 240
-    tone: 71
-    lyric: し
-    pitch:
-      data:
-      - {x: -40, y: -80, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 720
-    duration: 240
-    tone: 63
-    lyric: か
-    pitch:
-      data:
-      - {x: -40, y: 80, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 960
-    duration: 480
-    tone: 68
-    lyric: め
-    pitch:
-      data:
-      - {x: -40, y: -50, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1440
-    duration: 240
-    tone: 66
-    lyric: る
-    pitch:
-      data:
-      - {x: -40, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 1680
-    duration: 480
-    tone: 64
-    lyric: よ
-    pitch:
-      data:
-      - {x: -40, y: 20, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2160
-    duration: 240
-    tone: 63
-    lyric: お
-    pitch:
-      data:
-      - {x: -40, y: 10, shape: io}
-      - {x: 40, y: 0, shape: io}
-      snap_first: true
-    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
-    phoneme_expressions: []
-    phoneme_overrides: []
-  - position: 2400
-    duration: 720
-    tone: 63
-    lyric: に
-    pitch:
-      data:
-      - {x: -40, y: 0, shape: io}
       - {x: 40, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
@@ -16442,13 +15092,1389 @@ voice_parts:
       - {x: 29.639175, y: 0, shape: io}
       snap_first: true
     vibrato: {length: 97.5, period: 175, depth: 5, in: 11.463047, out: 3.9718454, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 4560
+  name: New Part
+  comment: ""
+  track_no: 6
+  position: 25200
+  notes:
+  - position: 480
+    duration: 240
+    tone: 63
+    lyric: ま
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 720
+    duration: 240
+    tone: 64
+    lyric: い
+    pitch:
+      data:
+      - {x: -40, y: -10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 960
+    duration: 420
+    tone: 63
+    lyric: と
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1380
+    duration: 60
+    tone: 63
+    lyric: し
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1440
+    duration: 240
+    tone: 63
+    lyric: つ
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1680
+    duration: 240
+    tone: 71
+    lyric: め
+    pitch:
+      data:
+      - {x: -40, y: -80, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1920
+    duration: 240
+    tone: 63
+    lyric: た
+    pitch:
+      data:
+      - {x: -40, y: 80, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2160
+    duration: 480
+    tone: 68
+    lyric: く
+    pitch:
+      data:
+      - {x: -40, y: -50, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2640
+    duration: 240
+    tone: 66
+    lyric: あ
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2880
+    duration: 240
+    tone: 64
+    lyric: し
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3120
+    duration: 240
+    tone: 64
+    lyric: i
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3360
+    duration: 240
+    tone: 63
+    lyric: ら
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3600
+    duration: 720
+    tone: 63
+    lyric: う
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 6120
+  name: New Part
+  comment: ""
+  track_no: 6
+  position: 75960
+  notes:
+  - position: 120
+    duration: 120
+    tone: 59
+    lyric: き
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 240
+    duration: 120
+    tone: 63
+    lyric: み
+    pitch:
+      data:
+      - {x: -40, y: -40, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 360
+    duration: 480
+    tone: 64
+    lyric: の
+    pitch:
+      data:
+      - {x: -40, y: -10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 840
+    duration: 240
+    tone: 63
+    lyric: て
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1080
+    duration: 240
+    tone: 63
+    lyric: わ
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1560
+    duration: 240
+    tone: 59
+    lyric: ど
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1800
+    duration: 480
+    tone: 64
+    lyric: お
+    pitch:
+      data:
+      - {x: -40, y: -50, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2280
+    duration: 240
+    tone: 63
+    lyric: し
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2520
+    duration: 240
+    tone: 63
+    lyric: て
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3000
+    duration: 120
+    tone: 59
+    lyric: こ
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3120
+    duration: 120
+    tone: 63
+    lyric: ん
+    pitch:
+      data:
+      - {x: -40, y: -40, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3240
+    duration: 240
+    tone: 64
+    lyric: な
+    pitch:
+      data:
+      - {x: -40, y: -10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3480
+    duration: 240
+    tone: 64
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3720
+    duration: 240
+    tone: 63
+    lyric: に
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3960
+    duration: 240
+    tone: 63
+    lyric: も
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 4440
+    duration: 120
+    tone: 59
+    lyric: あ
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 4560
+    duration: 120
+    tone: 63
+    lyric: た
+    pitch:
+      data:
+      - {x: -40, y: -40, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 4680
+    duration: 360
+    tone: 64
+    lyric: た
+    pitch:
+      data:
+      - {x: -40, y: -10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 5040
+    duration: 120
+    tone: 63
+    lyric: か
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 5160
+    duration: 240
+    tone: 64
+    lyric: い
+    pitch:
+      data:
+      - {x: -40, y: -10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 5400
+    duration: 240
+    tone: 66
+    lyric: の
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 4680
+  name: New Part
+  comment: ""
+  track_no: 6
+  position: 81720
+  notes:
+  - position: 120
+    duration: 240
+    tone: 68
+    lyric: ね
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 360
+    duration: 240
+    tone: 66
+    lyric: お
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 600
+    duration: 240
+    tone: 66
+    lyric: o
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 840
+    duration: 240
+    tone: 64
+    lyric: ね
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1080
+    duration: 240
+    tone: 64
+    lyric: が
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1320
+    duration: 60
+    tone: 64
+    lyric: い
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1560
+    duration: 240
+    tone: 63
+    lyric: ど
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1800
+    duration: 480
+    tone: 63
+    lyric: お
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2280
+    duration: 240
+    tone: 61
+    lyric: か
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2520
+    duration: 240
+    tone: 61
+    lyric: こ
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2760
+    duration: 240
+    tone: 59
+    lyric: の
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3000
+    duration: 240
+    tone: 58
+    lyric: ま
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3240
+    duration: 960
+    tone: 59
+    lyric: ま
+    pitch:
+      data:
+      - {x: -40, y: -10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 3840
+  name: New Part
+  comment: ""
+  track_no: 6
+  position: 104160
+  notes:
+  - position: 240
+    duration: 240
+    tone: 63
+    lyric: た
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 480
+    duration: 240
+    tone: 71
+    lyric: し
+    pitch:
+      data:
+      - {x: -40, y: -80, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 720
+    duration: 240
+    tone: 63
+    lyric: か
+    pitch:
+      data:
+      - {x: -40, y: 80, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 960
+    duration: 480
+    tone: 68
+    lyric: め
+    pitch:
+      data:
+      - {x: -40, y: -50, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1440
+    duration: 240
+    tone: 66
+    lyric: る
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1680
+    duration: 480
+    tone: 64
+    lyric: よ
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2160
+    duration: 240
+    tone: 63
+    lyric: お
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2400
+    duration: 720
+    tone: 63
+    lyric: に
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 6120
+  name: New Part
+  comment: ""
+  track_no: 6
+  position: 176760
+  notes:
+  - position: 120
+    duration: 120
+    tone: 59
+    lyric: き
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 240
+    duration: 120
+    tone: 63
+    lyric: み
+    pitch:
+      data:
+      - {x: -40, y: -40, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 360
+    duration: 480
+    tone: 64
+    lyric: の
+    pitch:
+      data:
+      - {x: -40, y: -10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 840
+    duration: 240
+    tone: 63
+    lyric: て
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1080
+    duration: 240
+    tone: 63
+    lyric: わ
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1560
+    duration: 240
+    tone: 59
+    lyric: ど
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1800
+    duration: 480
+    tone: 64
+    lyric: お
+    pitch:
+      data:
+      - {x: -40, y: -50, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2280
+    duration: 240
+    tone: 63
+    lyric: し
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2520
+    duration: 240
+    tone: 63
+    lyric: て
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3000
+    duration: 120
+    tone: 59
+    lyric: こ
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3120
+    duration: 120
+    tone: 63
+    lyric: ん
+    pitch:
+      data:
+      - {x: -40, y: -40, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3240
+    duration: 240
+    tone: 64
+    lyric: な
+    pitch:
+      data:
+      - {x: -40, y: -10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3480
+    duration: 240
+    tone: 64
+    lyric: a
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3720
+    duration: 240
+    tone: 63
+    lyric: に
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3960
+    duration: 240
+    tone: 63
+    lyric: も
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 4440
+    duration: 120
+    tone: 59
+    lyric: あ
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 4560
+    duration: 120
+    tone: 63
+    lyric: た
+    pitch:
+      data:
+      - {x: -40, y: -40, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 4680
+    duration: 360
+    tone: 64
+    lyric: た
+    pitch:
+      data:
+      - {x: -40, y: -10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 5040
+    duration: 120
+    tone: 63
+    lyric: か
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 5160
+    duration: 240
+    tone: 64
+    lyric: い
+    pitch:
+      data:
+      - {x: -40, y: -10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 5400
+    duration: 240
+    tone: 66
+    lyric: の
+    pitch:
+      data:
+      - {x: -40, y: -20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 4560
+  name: New Part
+  comment: ""
+  track_no: 7
+  position: 25200
+  notes:
+  - position: 480
+    duration: 240
+    tone: 63
+    lyric: ま
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 720
+    duration: 240
+    tone: 64
+    lyric: い
+    pitch:
+      data:
+      - {x: -40, y: -10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 960
+    duration: 420
+    tone: 63
+    lyric: と
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1380
+    duration: 60
+    tone: 63
+    lyric: し
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1440
+    duration: 240
+    tone: 63
+    lyric: つ
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1680
+    duration: 240
+    tone: 71
+    lyric: め
+    pitch:
+      data:
+      - {x: -40, y: -80, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1920
+    duration: 240
+    tone: 63
+    lyric: た
+    pitch:
+      data:
+      - {x: -40, y: 80, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2160
+    duration: 480
+    tone: 68
+    lyric: く
+    pitch:
+      data:
+      - {x: -40, y: -50, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2640
+    duration: 240
+    tone: 66
+    lyric: あ
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2880
+    duration: 240
+    tone: 64
+    lyric: し
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3120
+    duration: 240
+    tone: 64
+    lyric: i
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3360
+    duration: 240
+    tone: 63
+    lyric: ら
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3600
+    duration: 720
+    tone: 63
+    lyric: う
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 4680
+  name: New Part
+  comment: ""
+  track_no: 7
+  position: 81720
+  notes:
+  - position: 120
+    duration: 240
+    tone: 68
+    lyric: ね
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 360
+    duration: 240
+    tone: 66
+    lyric: お
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 600
+    duration: 240
+    tone: 66
+    lyric: o
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 840
+    duration: 240
+    tone: 64
+    lyric: ね
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1080
+    duration: 240
+    tone: 64
+    lyric: が
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1320
+    duration: 60
+    tone: 64
+    lyric: い
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1560
+    duration: 240
+    tone: 63
+    lyric: ど
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1800
+    duration: 480
+    tone: 63
+    lyric: お
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2280
+    duration: 240
+    tone: 61
+    lyric: か
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2520
+    duration: 240
+    tone: 61
+    lyric: こ
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2760
+    duration: 240
+    tone: 59
+    lyric: の
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3000
+    duration: 240
+    tone: 58
+    lyric: ま
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 3240
+    duration: 960
+    tone: 59
+    lyric: ま
+    pitch:
+      data:
+      - {x: -40, y: -10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  curves: []
+- duration: 3840
+  name: New Part
+  comment: ""
+  track_no: 7
+  position: 104160
+  notes:
+  - position: 240
+    duration: 240
+    tone: 63
+    lyric: た
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 480
+    duration: 240
+    tone: 71
+    lyric: し
+    pitch:
+      data:
+      - {x: -40, y: -80, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 720
+    duration: 240
+    tone: 63
+    lyric: か
+    pitch:
+      data:
+      - {x: -40, y: 80, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 960
+    duration: 480
+    tone: 68
+    lyric: め
+    pitch:
+      data:
+      - {x: -40, y: -50, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1440
+    duration: 240
+    tone: 66
+    lyric: る
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 1680
+    duration: 480
+    tone: 64
+    lyric: よ
+    pitch:
+      data:
+      - {x: -40, y: 20, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2160
+    duration: 240
+    tone: 63
+    lyric: お
+    pitch:
+      data:
+      - {x: -40, y: 10, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
+    phoneme_expressions: []
+    phoneme_overrides: []
+  - position: 2400
+    duration: 720
+    tone: 63
+    lyric: に
+    pitch:
+      data:
+      - {x: -40, y: 0, shape: io}
+      - {x: 40, y: 0, shape: io}
+      snap_first: true
+    vibrato: {length: 0, period: 175, depth: 25, in: 10, out: 10, shift: 0, drift: 0, vol_link: 0}
     phoneme_expressions: []
     phoneme_overrides: []
   curves: []
 - duration: 5760
   name: New Part
   comment: ""
-  track_no: 8
+  track_no: 10
   position: 12240
   notes:
   - position: 480
@@ -16695,7 +16721,7 @@ voice_parts:
 - duration: 7920
   name: New Part
   comment: ""
-  track_no: 8
+  track_no: 10
   position: 22320
   notes:
   - position: 480
@@ -16942,7 +16968,7 @@ voice_parts:
 - duration: 5760
   name: New Part
   comment: ""
-  track_no: 8
+  track_no: 10
   position: 34560
   notes:
   - position: 720
@@ -17165,7 +17191,7 @@ voice_parts:
 - duration: 6480
   name: New Part
   comment: ""
-  track_no: 8
+  track_no: 10
   position: 46800
   notes:
   - position: 720
@@ -17436,7 +17462,7 @@ voice_parts:
 - duration: 6480
   name: New Part
   comment: ""
-  track_no: 8
+  track_no: 10
   position: 58320
   notes:
   - position: 480
@@ -17611,7 +17637,7 @@ voice_parts:
 - duration: 6480
   name: New Part
   comment: ""
-  track_no: 8
+  track_no: 10
   position: 69840
   notes:
   - position: 720
@@ -17918,7 +17944,7 @@ voice_parts:
 - duration: 7920
   name: New Part
   comment: ""
-  track_no: 8
+  track_no: 10
   position: 81360
   notes:
   - position: 480
@@ -18177,7 +18203,7 @@ voice_parts:
 - duration: 5760
   name: New Part
   comment: ""
-  track_no: 8
+  track_no: 10
   position: 90000
   notes:
   - position: 480
@@ -18424,7 +18450,7 @@ voice_parts:
 - duration: 7920
   name: New Part
   comment: ""
-  track_no: 8
+  track_no: 10
   position: 100080
   notes:
   - position: 720
@@ -18647,7 +18673,7 @@ voice_parts:
 - duration: 6480
   name: New Part
   comment: ""
-  track_no: 8
+  track_no: 10
   position: 113040
   notes:
   - position: 720
@@ -18930,7 +18956,7 @@ voice_parts:
 - duration: 5760
   name: New Part
   comment: ""
-  track_no: 8
+  track_no: 10
   position: 136080
   notes:
   - position: 720
@@ -19177,7 +19203,7 @@ voice_parts:
 - duration: 9360
   name: New Part
   comment: ""
-  track_no: 8
+  track_no: 10
   position: 148320
   notes:
   - position: 720
@@ -19484,7 +19510,7 @@ voice_parts:
 - duration: 6480
   name: New Part
   comment: ""
-  track_no: 8
+  track_no: 10
   position: 170640
   notes:
   - position: 720
@@ -19791,7 +19817,7 @@ voice_parts:
 - duration: 7920
   name: New Part
   comment: ""
-  track_no: 8
+  track_no: 10
   position: 182160
   notes:
   - position: 480
@@ -20050,7 +20076,7 @@ voice_parts:
 - duration: 5760
   name: New Part
   comment: ""
-  track_no: 9
+  track_no: 11
   position: 17280
   notes:
   - position: 720
@@ -20285,7 +20311,7 @@ voice_parts:
 - duration: 6480
   name: New Part
   comment: ""
-  track_no: 9
+  track_no: 11
   position: 29520
   notes:
   - position: 480
@@ -20532,7 +20558,7 @@ voice_parts:
 - duration: 7920
   name: New Part
   comment: ""
-  track_no: 9
+  track_no: 11
   position: 39600
   notes:
   - position: 480
@@ -20827,7 +20853,7 @@ voice_parts:
 - duration: 6480
   name: New Part
   comment: ""
-  track_no: 9
+  track_no: 11
   position: 52560
   notes:
   - position: 720
@@ -21110,7 +21136,7 @@ voice_parts:
 - duration: 6480
   name: New Part
   comment: ""
-  track_no: 9
+  track_no: 11
   position: 64080
   notes:
   - position: 720
@@ -21417,7 +21443,7 @@ voice_parts:
 - duration: 6480
   name: New Part
   comment: ""
-  track_no: 9
+  track_no: 11
   position: 75600
   notes:
   - position: 480
@@ -21700,7 +21726,7 @@ voice_parts:
 - duration: 5760
   name: New Part
   comment: ""
-  track_no: 9
+  track_no: 11
   position: 95040
   notes:
   - position: 720
@@ -21911,7 +21937,7 @@ voice_parts:
 - duration: 6480
   name: New Part
   comment: ""
-  track_no: 9
+  track_no: 11
   position: 107280
   notes:
   - position: 720
@@ -22182,7 +22208,7 @@ voice_parts:
 - duration: 6480
   name: New Part
   comment: ""
-  track_no: 9
+  track_no: 11
   position: 118800
   notes:
   - position: 480
@@ -22357,7 +22383,7 @@ voice_parts:
 - duration: 7920
   name: New Part
   comment: ""
-  track_no: 9
+  track_no: 11
   position: 141840
   notes:
   - position: 720
@@ -22748,7 +22774,7 @@ voice_parts:
 - duration: 6480
   name: New Part
   comment: ""
-  track_no: 9
+  track_no: 11
   position: 164880
   notes:
   - position: 720
@@ -23055,7 +23081,7 @@ voice_parts:
 - duration: 6480
   name: New Part
   comment: ""
-  track_no: 9
+  track_no: 11
   position: 176400
   notes:
   - position: 480
@@ -23338,7 +23364,7 @@ voice_parts:
 - duration: 9360
   name: New Part
   comment: ""
-  track_no: 9
+  track_no: 11
   position: 187920
   notes:
   - position: 2175
@@ -23525,7 +23551,7 @@ voice_parts:
 wave_parts:
 - name: 01_08_春日影 (MyGO!!!!! ver.).flac
   comment: ""
-  track_no: 6
+  track_no: 8
   position: 847
   relative_path: ..\UtauReference\01_08_春日影 (MyGO!!!!! ver.).flac
   file_duration_ms: 256613.3333
@@ -23533,7 +23559,7 @@ wave_parts:
   trim_ms: 0
 - name: 1_01_08_春日影 (MyGO!!!!! ver.)_(Instrumental).flac
   comment: ""
-  track_no: 7
+  track_no: 9
   position: 848
   relative_path: ..\UtauReference\1_01_08_春日影 (MyGO!!!!! ver.)_(Instrumental).flac
   file_duration_ms: 256613.3333
@@ -23541,7 +23567,7 @@ wave_parts:
   trim_ms: 0
 - name: CRYCHIC - 春日影.mp3
   comment: ""
-  track_no: 10
+  track_no: 12
   position: 1064
   relative_path: ..\UtauReference\CRYCHIC - 春日影.mp3
   file_duration_ms: 257880.8163
@@ -23549,7 +23575,7 @@ wave_parts:
   trim_ms: 0
 - name: 1_CRYCHIC - 春日影_(Instrumental).flac
   comment: ""
-  track_no: 11
+  track_no: 13
   position: 1084
   relative_path: ..\UtauReference\1_CRYCHIC - 春日影_(Instrumental).flac
   file_duration_ms: 257839.9999
