@@ -271,7 +271,7 @@ tracks:
   - 弱 - Weak
   - 滑らか - Smooth
 - singer: 足立レイver3.1.3 for OpenUTAU
-  phonemizer: OpenUtau.Core.DefaultPhonemizer
+  phonemizer: OpenUtau.Plugin.Builtin.JapanesePresampPhonemizer
   renderer_settings:
     renderer: WORLDLINE-R
   track_name: VocalB
@@ -366,28 +366,6 @@ tracks:
   mute: false
   solo: false
   volume: -6
-  pan: 0
-  track_expressions: []
-  voice_color_names:
-  - ""
-- phonemizer: OpenUtau.Core.DefaultPhonemizer
-  renderer_settings: {}
-  track_name: Track11
-  track_color: Blue
-  mute: false
-  solo: false
-  volume: 0
-  pan: 0
-  track_expressions: []
-  voice_color_names:
-  - ""
-- phonemizer: OpenUtau.Core.DefaultPhonemizer
-  renderer_settings: {}
-  track_name: Track12
-  track_color: Blue
-  mute: false
-  solo: false
-  volume: 0
   pan: 0
   track_expressions: []
   voice_color_names:
